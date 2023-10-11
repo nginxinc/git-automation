@@ -6,7 +6,7 @@ This is a reference automation for pushing configurations from Git to Nginx Inst
 ## Requirements
 
 - bash shell
-- Installed Nginx Instance Manager
+- Installed Nginx Instance Manager with atleast one Instance and Instance Group.
 
 ## How to Use
 
