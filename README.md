@@ -17,12 +17,12 @@ This is a reference automation for pushing configurations from Git to Nginx Inst
 	```
 
 2. Once you have cloned the repository, modify the following variables in `gitlab-ci.yaml` file:
+   	```
 	CTRL_IP - IP for Nginx Instance Manager.
 	AUTH_TOKEN - Authorization token for connecting to Nginx Instance Manager.
 	SYSTEM_UID - System UID of the instance to push configuration changes.
 	NGINX_UID - Nginx UID of the instance to push configuration changes.
 	GROUP_UID - Instance Group UID of the instance group to push configurations changes.
-
 3. This repository has sample script files to create payload for instances [prepare-payload.sh](https://github.com/nginxinc/git-automation/blob/main/prepare-payload.sh "prepare-payload.sh") and instance groups [prepare-instGroup-payload.sh](https://github.com/nginxinc/git-automation/blob/main/prepare-instGroup-payload.sh "prepare-instGroup-payload.sh") 
 
 	Usage example for [prepare-payload.sh](https://github.com/nginxinc/git-automation/blob/main/prepare-payload.sh "prepare-payload.sh") :
